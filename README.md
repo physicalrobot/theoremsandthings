@@ -10,7 +10,7 @@ This blog is dedicated to science communication and education, aiming to inspire
 
 ## Topics
 
-On Thoughtwave, you can expect to find posts on topics such as:
+On Theorems and Things, you can expect to find posts on topics such as:
 - The latest scientific discoveries
 - Deep dives into concepts in astrophysics, quantum mechanics, and other areas of physics
 - Discussions of interesting phenomena in biology, chemistry, and environmental science

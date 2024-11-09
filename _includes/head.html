@@ -13,16 +13,16 @@
   <link rel="canonical" href="{{ page.url | absolute_url | replace: '/index.html', '/' }}">
 
   <!-- RSS Feed -->
-  <link rel="alternate" type="application/rss+xml" title="Thoughtwaves" href="{{ "/feed.xml" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="Theorems and Things" href="{{ "/feed.xml" | relative_url }}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Thoughtwaves{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Theorems and Things{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}Curiosity, Science, and Beyond.{% endif %}">
   <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}/images/scientistskelepreviewimg.png{% endif %}">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Thoughtwaves{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Theorems and Things{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}Curiosity, Science, and Beyond.{% endif %}">
   <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}/images/scientistskelepreviewimg.png{% endif %}">
 

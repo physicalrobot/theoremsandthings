@@ -1,6 +1,6 @@
 # Thoughtwaves
 
-Welcome to **Thoughtwaves** – a destination where curiosity meets discovery!
+Welcome to **Theorems and Things** – a destination where curiosity meets discovery!
 
 ## About
 

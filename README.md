@@ -1,4 +1,4 @@
-# Thoughtwaves
+# Theorems and Things
 
 Welcome to **Theorems and Things** – a destination where curiosity meets discovery!
 

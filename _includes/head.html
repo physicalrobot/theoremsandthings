@@ -1,0 +1,43 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title: Page-specific title if available, otherwise use "Thoughtwaves" -->
+  <title>{% if page.title %}{{ page.title }}{% else %}Thoughtwaves{% endif %}</title>
+  
+  <!-- Description: Page-specific description if available, otherwise use a fallback description -->
+  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}Curiosity, Science, and Beyond.{% endif %}">
+
+  <!-- Canonical URL: Ensure consistent URL handling -->
+  <link rel="canonical" href="{{ page.url | absolute_url | replace: '/index.html', '/' }}">
+
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="Thoughtwaves" href="{{ "/feed.xml" | relative_url }}">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Thoughtwaves{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}Curiosity, Science, and Beyond.{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}/images/scientistskelepreviewimg.png{% endif %}">
+
+  <!-- Facebook OpenGraph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Thoughtwaves{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | xml_escape }}{% else %}Curiosity, Science, and Beyond.{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}/images/scientistskelepreviewimg.png{% endif %}">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+  <style>
+  {% capture include_to_scssify %}
+    {% include main.scss %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
+</head>

@@ -29,7 +29,7 @@ author:
 #-------------------------------
 # Hero Settings
 hero:
-  title: Theorems and Things
+  title: "Theorems and Things"
   description: Curiosity, Science, and Beyond.
   image: '/images/scientistskele.png'
 

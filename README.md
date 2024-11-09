@@ -10,7 +10,7 @@ This blog is dedicated to science communication and education, aiming to inspire
 
 ## Topics
 
-On Theorems and Things, you can expect to find posts on topics such as:
+On **Theorems and Things**, you can expect to find posts on topics such as:
 - The latest scientific discoveries
 - Deep dives into concepts in astrophysics, quantum mechanics, and other areas of physics
 - Discussions of interesting phenomena in biology, chemistry, and environmental science
@@ -37,6 +37,8 @@ Then **Theorems and Things** is the place for you!
 
 Have a question or want to suggest a topic for a future post? Feel free to reach via email: 
 
-Happy learning, and let's keep riding the Thoughtwave of scientific discovery together!
-"# theoremsandthings" 
-"# theoremsandthings" 
+Happy learning, and let's keep riding the **Theorems and Things** wave of scientific discovery together!
+
+"# theoremsandthings"  
+"# theoremsandthings"
+

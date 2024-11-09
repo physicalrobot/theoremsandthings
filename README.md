@@ -31,7 +31,7 @@ If you are:
 - Someone who enjoys keeping up with the latest discoveries in science
 - Or just a curious mind looking to learn something new
 
-Then **Thoughtwaves** is the place for you!
+Then **Theorems and Things** is the place for you!
 
 ## Get In Touch
 

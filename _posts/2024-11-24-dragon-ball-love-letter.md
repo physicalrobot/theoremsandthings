@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  My Love Letter to Dragon Ball
-description: Dare to dream?
+description: RIP 
 date:   2024-11-10 15:01:35 +0300
 image:  '/images/gokupray.png'
 tags:   [Fandom]

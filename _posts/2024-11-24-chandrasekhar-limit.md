@@ -115,9 +115,6 @@ where $\textcolor{turquoise}{M_{\odot}}$ is the mass of the Sun. This value repr
 The Chandrasekhar limit represents the tipping point at which electron degeneracy pressure can no longer counterbalance gravitational collapse in a white dwarf star. Beyond this limit, the star undergoes a dramatic transformation, potentially collapsing into a neutron star or even a black hole. This fundamental astrophysical concept explains the behavior and ultimate fate of stars at the end of their life cycles, laying the groundwork for modern studies of stellar evolution and compact objects.
 
 
-
-
-
 #### A Lifetime of Achievement Across Fields: "Success is Not a Destination, But the Road That You’re On"
 
 Chandrasekhar’s intellectual curiosity and commitment to science extended across multiple disciplines within physics, each with equal dedication and depth. After he had published extensively on one topic, he would immerse himself in a completely different area, challenging himself anew and continuing to push the boundaries of his understanding. His contributions included foundational research on radiative transfer, the theory of black holes, fluid dynamics, and general relativity. Each venture into a new field was marked by an intense, focused exploration that typically resulted in pioneering papers and books. 

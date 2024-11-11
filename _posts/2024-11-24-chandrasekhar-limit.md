@@ -25,20 +25,99 @@ Chandrasekhar’s most celebrated achievement, the discovery of the Chandrasekha
 
 However, Chandrasekhar’s perseverance never wavered. Guided by a belief that “the simple joy of exploring the mind” was worth any hardship, he held fast to his calculations and allowed time to prove their validity. In the years that followed, his theories gained widespread acceptance, profoundly influencing our understanding of the universe and securing his place as a pioneer in astrophysics.
 
+
+<script type="text/javascript">
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']]
+  }
+};
+</script>
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+# Derivation of the Chandrasekhar Limit
+
+The Chandrasekhar limit represents the maximum mass $\textcolor{turquoise}{M}$ that a white dwarf star can possess before gravitational collapse overcomes electron degeneracy pressure, leading to a neutron star or black hole. This derivation combines principles of quantum mechanics and general relativity to establish a limit around 1.4 solar masses. Here's the breakdown for the common variables in this derivation:
+
+
+## Variables and Constants
+
+1. **Total Mass** $\textcolor{turquoise}{M}$: The total mass of the white dwarf.
+2. **Radius** $\textcolor{turquoise}{R}$: The radius of the white dwarf, influenced by the mass-density relation.
+3. **Density** $\textcolor{turquoise}{\rho}$: Defined as $\textcolor{turquoise}{ \rho = \frac{M}{\frac{4}{3} \pi R^3} }$, representing the star's density.
+4. **Electron Mass** $\textcolor{turquoise}{m_e}$: Mass of an electron, crucial in determining the degeneracy pressure.
+5. **Proton Mass** $\textcolor{turquoise}{m_p}$: Mass of a proton, relating to the hydrogen composition and the electron-proton ratio.
+6. **Planck's Constant** $\textcolor{turquoise}{h}$: A quantum mechanical constant essential in calculating momentum.
+7. **Speed of Light** $\textcolor{turquoise}{c}$: The speed of light, included for relativistic considerations.
+8. **Gravitational Constant** $\textcolor{turquoise}{G}$: Governs the gravitational force trying to collapse the star.
+
+## Step-by-Step Derivation
+
+### Step 1: Defining Degeneracy Pressure
+
+The pressure exerted by a gas of relativistic electrons, or **degeneracy pressure** $\textcolor{turquoise}{P}$, is given by the Fermi momentum $\textcolor{turquoise}{p_F}$. For an electron gas, the Fermi momentum can be defined as:
+
+<p style="color:turquoise" align="center"> 
+$$
+p_F = \textcolor{turquoise}{\left(3 \pi^2 \frac{Z}{A} \frac{\rho}{m_p} \right)^{\frac{1}{3}} h}
+$$
+</p>
+
+where $\textcolor{turquoise}{Z}$ is the atomic number, $\textcolor{turquoise}{A}$ is the mass number, and $\textcolor{turquoise}{m_p}$ is the proton mass. The degeneracy pressure for relativistic electrons is then:
+
+<p style="color:turquoise" align="center"> 
+$$
+P \approx \textcolor{turquoise}{\frac{p_F c}{3} \left(\frac{p_F}{m_e c} \right)^3}
+$$
+</p>
+
+### Step 2: Balancing Forces
+
+In a stable white dwarf, the **gravitational pressure** $\textcolor{turquoise}{P_{\text{gravity}}}$ is balanced by the electron degeneracy pressure $\textcolor{turquoise}{P}$.
+
+The gravitational pressure is given by:
+
+<p style="color:turquoise" align="center"> 
+$$
+P_{\text{gravity}} \approx \textcolor{turquoise}{\frac{G M^2}{R^4}}
+$$
+</p>
+
+### Step 3: Expressing Mass in Terms of Radius
+
+To balance gravitational pressure with degeneracy pressure, equate $\textcolor{turquoise}{P_{\text{gravity}}}$ with $\textcolor{turquoise}{P}$:
+
+<p style="color:turquoise" align="center"> 
+$$
+\frac{G M^2}{R^4} = \textcolor{turquoise}{\frac{p_F c}{3} \left(\frac{p_F}{m_e c} \right)^3}
+$$
+</p>
+
+This relationship implies that as mass $\textcolor{turquoise}{M}$ increases, so must the density $\textcolor{turquoise}{\rho}$, which in turn raises the Fermi momentum $\textcolor{turquoise}{p_F}$ until electrons reach relativistic speeds. 
+
+### Step 4: Deriving the Mass Limit
+
+Rearrange and simplify the expression above to solve for $\textcolor{turquoise}{M}$ in terms of constants. After balancing these terms, we find that:
+
+<p style="color:turquoise" align="center"> 
+$$
+M_{\text{Ch}} \approx \textcolor{turquoise}{1.4 M_{\odot}}
+$$
+</p>
+
+where $\textcolor{turquoise}{M_{\odot}}$ is the mass of the Sun. This value represents the Chandrasekhar limit—the maximum mass a white dwarf can have before electron degeneracy pressure fails to counteract gravity, leading to a collapse.
+
+## Summary of the Chandrasekhar Limit
+
+The Chandrasekhar limit represents the tipping point at which electron degeneracy pressure can no longer counterbalance gravitational collapse in a white dwarf star. Beyond this limit, the star undergoes a dramatic transformation, potentially collapsing into a neutron star or even a black hole. This fundamental astrophysical concept explains the behavior and ultimate fate of stars at the end of their life cycles, laying the groundwork for modern studies of stellar evolution and compact objects.
+
+
+
+
+
 #### A Lifetime of Achievement Across Fields: "Success is Not a Destination, But the Road That You’re On"
 
-Chandrasekhar’s intellectual curiosity and commitment to science extended across multiple disciplines within physics, each with equal dedication and depth. After he had published extensively on one topic, he would immerse himself in a completely different area, challenging himself anew and continuing to push the boundaries of his understanding. His contributions included foundational research on radiative transfer, the theory of black holes, fluid dynamics, and general relativity. Each venture into a new field was marked by an intense, focused exploration that typically resulted in pioneering papers and books.
-
-Among Chandrasekhar’s most influential publications were his 1943 work on stellar dynamics, which remains essential to astrophysical research, and his comprehensive treatises, including *Radiative Transfer* and *The Mathematical Theory of Black Holes*. These works reflect his meticulous and thorough approach to science, an approach he described as striving “not to make things complicated, but to make things simpler.”
-
-#### A Legacy of Humility and Dedication: "I Am Greatly Changed When I Find the World Is Really More Beautiful Than I Thought It Was"
-
-Chandrasekhar’s contributions extended far beyond his scientific discoveries. He became known for his tireless dedication to teaching, mentoring students and colleagues with the same intensity that he brought to his own research. His kindness and generosity were legendary, with countless young scientists crediting him for their inspiration and encouragement. He was awarded the Nobel Prize in Physics in 1983, an honor he accepted with characteristic humility, acknowledging the countless individuals who had helped shape his work.
-
-Reflecting on his life and career, Chandrasekhar would often express his amazement at the beauty of the universe, marveling at how each new discovery revealed an even greater complexity and elegance. He once noted, “I am greatly changed when I find the world is really more beautiful than I thought it was.” His words remind us that his scientific journey was deeply personal, a path of continuous revelation that inspired not only scientific progress but also wonder and awe.
-
-#### Remembering Chandrasekhar: A Lasting Influence
-
-Subrahmanyan Chandrasekhar’s legacy lives on as an inspiration to both scientists and those who value knowledge for its own sake. His life was a testament to the beauty of intellectual humility, the joy of discovery, and the timeless value of a life dedicated to understanding the world. Chandrasekhar taught us that science is not merely a series of achievements but a way of seeing the universe—a perspective that calls for patience, curiosity, and above all, an unwavering passion for truth.
-
-In remembering Chandrasekhar, we honor a scientist whose work was driven by a spirit of inquiry, a quiet strength, and a belief that knowledge is its own reward. Through his legacy, we are reminded that in science, as in life, it is the journey that counts most, for, as he said, “In the pursuit of science, the reward is the love of discovery, and this reward is its own beauty.”
+Chandrasekhar’s intellectual curiosity and commitment to science extended across multiple disciplines within physics, each with equal dedication and depth. After he had published extensively on one topic, he would immerse himself in a completely different area, challenging himself anew and continuing to push the boundaries of his understanding. His contributions included foundational research on radiative transfer, the theory of black holes, fluid dynamics, and general relativity. Each venture into a new field was marked by an intense, focused exploration that typically resulted in pioneering papers and books. 

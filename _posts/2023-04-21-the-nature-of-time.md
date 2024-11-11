@@ -20,6 +20,10 @@ This phenomenon is known as <span style="color:turquoise">**time dilation**</spa
 
 In essence, <span style="color:turquoise">**time is local**</span>, not universal. Different regions of space experience time in different ways. What we once assumed to be a single, omnipresent clock ticking through the cosmos is, instead, a complex web of times—interwoven, overlapping, and diverse.
 
+<p align="center">
+  <img src="{{site.baseurl}}/images/timesat.gif" alt="satellite">
+</p>
+
 ## The Direction of Time
 
 Another peculiar feature of time that Rovelli explores is its apparent <span style="color:turquoise">**directionality**</span>. We experience time as an irreversible arrow that points forward—from past to future. We remember the past but not the future, and events seem to unfold in one direction. This, however, is not a fundamental feature of the universe but rather a product of <span style="color:turquoise">**entropy**</span>.
@@ -30,11 +34,20 @@ Without entropy, the distinction between past and future would vanish. Rovelli s
 
 At the microscopic level, most physical laws are <span style="color:turquoise">**time-reversible**</span>. If you filmed the motion of particles or the behavior of fundamental forces and played it backward, there would be no violation of physical laws. Both directions of time would seem equally valid. It's only when we introduce thermodynamics and the increase of entropy that time appears to "move" forward.
 
+<p align="center">
+  <img src="{{site.baseurl}}/images/arrowtime.png" alt="satellite">
+</p>
+
 ## Time and the Quantum World
 
 Rovelli’s research in quantum gravity adds even more complexity to the nature of time. In quantum mechanics, time becomes even more ambiguous. Events do not happen in a smooth, continuous flow, but in discrete, probabilistic jumps. At the quantum level, particles exist in a state of superposition, meaning they can be in multiple states or locations simultaneously, and it's only when we observe them that they "collapse" into a specific state.
 
 In this quantum realm, time seems to lose its traditional meaning entirely. Rovelli points out that in quantum gravity, time is not a fundamental component of the equations describing the universe. In fact, the universe may function perfectly well without time as a fundamental entity—suggesting that our experience of time may be an illusion created by our limited understanding of reality at larger scales.
+
+
+<p align="center">
+  <img src="{{site.baseurl}}/images/quantumtime.jpg" alt="quantum">
+</p>
 
 ## The Illusion of Time
 
@@ -43,3 +56,7 @@ So, what is time? From Rovelli's perspective, time is not a fixed, external enti
 Rovelli encourages us to rethink time not as an objective reality but as a complex relationship between events. The true nature of time lies in the connections between things, how they change and interact, not in an independent, overarching flow. Time, in this sense, is not the fabric of the universe but a human interpretation of the changes we observe.
 
 The next time you glance at your watch or mark an appointment on your calendar, remember that the clock you're following is but one of many clocks ticking at different speeds and directions in a vast, intricate cosmos. Time, as Rovelli sees it, is far more mysterious than it first appears—a fluid, ever-changing concept that shapes our experience yet may be more illusion than reality.
+
+<p align="center">
+  <img src="{{site.baseurl}}/images/neilkeypeele.png" alt="Neil Degrasse Tyson skit">
+</p>

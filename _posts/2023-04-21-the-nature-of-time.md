@@ -46,7 +46,7 @@ In this quantum realm, time seems to lose its traditional meaning entirely. Rove
 
 
 <p align="center">
-  <img src="{{site.baseurl}}/images/quantumtime.jpg" alt="quantum">
+  <img src="{{site.baseurl}}/images/quantumtime.png" alt="quantum">
 </p>
 
 ## The Illusion of Time

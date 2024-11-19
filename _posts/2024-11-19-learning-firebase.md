@@ -11,9 +11,9 @@ tags:   [Software Engineering, KnowGo]
 
 Firebase offers an all-in-one solution for app developers. Its diverse features, including real-time databases, authentication systems, and serverless functionality, make it an ideal choice for startups or solo developers looking to focus more on app logic than backend infrastructure. Below are the Firebase features I’ve implemented so far in KnowGo:
 
-  - Authentication: Simplifies user login and sign-up processes.
-  - Cloud Firestore: A powerful, scalable NoSQL database for storing and syncing app data in real-time.
-  - Firebase Hosting: A reliable way to deploy and host web applications.
+  - <span style="color:turquoise;">Authentication</span>: Simplifies user login and sign-up processes.
+  - <span style="color:turquoise;">Cloud Firestore</span>: A powerful, scalable NoSQL database for storing and syncing app data in real-time.
+  - <span style="color:turquoise;">Firebase Hosting</span>: A reliable way to deploy and host web applications.
 
   <p align="center">
   <img src="{{site.baseurl}}/images/firebasemanage.jpg" alt="firebase summary">
@@ -84,11 +84,11 @@ To showcase the progress on KnowGo, I needed a platform to deploy the frontend. 
 ### Challenges and Learnings
 While Firebase simplifies many aspects of app development, there were a few challenges I encountered:
 
- 1. Understanding Firestore Queries:
+ 1. <span style="color:turquoise;">Understanding Firestore Queries</span>:
    - Firestore's querying capabilities are powerful but have limitations, such as the inability to perform complex joins. I had to rethink my data structure to optimize for Firestore's querying model.
- 2. Handling Authentication Errors:
+ 2. <span style="color:turquoise;">Handling Authentication Errors</span>:
    - Error messages during authentication were sometimes vague. Using Firebase’s extensive documentation helped troubleshoot issues effectively.
- 3. Deploying Changes:
+ 3. <span style="color:turquoise;">Deploying Changes</span>:
    - While Firebase Hosting is efficient, remembering to redeploy after every frontend change required discipline and automation in the workflow.
 
 ### Conclusion

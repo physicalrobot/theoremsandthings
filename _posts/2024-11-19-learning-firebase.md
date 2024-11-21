@@ -4,7 +4,7 @@ title:  Learning Firebase
 description: Complicated Logistics Made Simple 
 date:   2024-11-18 15:01:35 +0300
 image:  '/images/firebase-header.png'
-tags:   [Software Engineering, KnowGo]
+tags:   [Developer, KnowGo]
 ---
 
 ### Why Firebase?

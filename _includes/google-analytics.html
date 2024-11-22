@@ -1,4 +1,62 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
+{% if site.data.settings.google-analytics %}
+<script>
+  (function() {
+    // Initialize Google Analytics
+    function loadGA4() {
+      var gtag_id = '{{ site.data.settings.google-analytics }}';
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', gtag_id);
+
+      /* Load GA4 script */
+      var gaScript = document.createElement('script');
+      gaScript.async = true;
+      gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + gtag_id;
+      document.head.appendChild(gaScript);
+    }
+
+    // Check for consent
+    if (navigator.CookiesOK) {
+      loadGA4();
+    } else if (document.cookie.indexOf('hy--cookies-ok=true') > -1) {
+      loadGA4();
+    } else {
+      document.addEventListener('hy--cookies-ok', function() {
+        loadGA4();
+      });
+    }
+
+    // Handle single-page app navigation tracking
+    document.addEventListener('DOMContentLoaded', function() {
+      var pushStateEl = document.getElementById('_pushState');
+      if (pushStateEl) {
+        var timeoutId;
+        pushStateEl.addEventListener('hy-push-state-load', function() {
+          window.clearTimeout(timeoutId);
+          timeoutId = window.setTimeout(function() {
+            if (typeof gtag === 'function') {
+              gtag('event', 'page_view', {
+                page_path: window.location.pathname,
+              });
+            } else {
+              console.error('gtag function is not defined.');
+            }
+          }, 500);
+        });
+      }
+    });
+  })();
+</script>
+{% endif %}
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.data.settings.google-analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -6,4 +64,4 @@
   gtag('js', new Date());
 
   gtag('config', '{{ site.data.settings.google-analytics }}');
-</script>
+</script> -->

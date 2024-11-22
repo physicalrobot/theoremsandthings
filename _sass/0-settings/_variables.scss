@@ -19,11 +19,19 @@ $gray: #aaa;
 $light-gray: #eee;
 $white: #fff;
 
+
 // Body Color
 $text-color: $light-gray;
 
 // Background Colors
 $background-color: #0f0e15;
+
+// Callouts Colors
+$callout-note: hsl(213, 75%, 65%);
+$callout-tip: hsl(180, 36%, 54%);
+$callout-important: #8251e0;
+$callout-warning: hwb(9 32% 10%);
+$callout-caution: hsl(298, 72%, 47%);
 
 
 // *****************
@@ -41,7 +49,6 @@ $heading-font-weight: 500;
 $heading-font-family: "Creepster", system-ui;
 $heading-color: $text-color;
   
-
 
 $font-size-h1:  36px;
 $font-size-h2:  28px;

@@ -67,9 +67,8 @@ disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For
 
 #-------------------------------
 # Google Analytics
-google-analytics: G-K56XPVT5V5 # Add your identifier. For example UA-99631805-1.
+google-analytics: GT-NGS9XK6C # Add your identifier. For example UA-99631805-1.
 
-# G-K56XPVT5V5
 #-------------------------------
 # Newsletter
 # mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.

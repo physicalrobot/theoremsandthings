@@ -26,7 +26,7 @@ Once I had a basic layout in mind, I turned to <span style="color:turquoise;">**
 </p>
 
 ## Building the Backend with Firebase  
-On the development side, I’ve been learning and working with <span style="color:turquoise;">**Firebase Firestore**</span> to create a user database specific to their role. <span style="color:turquoise;">Tutors</span> accounts will have more information saved in the database than <span style="color:turquoise;">student</span> users.  
+On the development side, I’ve been learning and working with <span style="color:turquoise;">**Firebase Firestore**</span> to create a user database specific to their role. <span style="color:turquoise;">Tutor</span> accounts will have more information saved in the database than <span style="color:turquoise;">student</span> users.  
 
 Firestore’s flexibility has been great for organizing these details and laying the groundwork for future features.
 

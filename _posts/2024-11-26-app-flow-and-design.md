@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  App Flow and Design
-description: 
+description: Developing with direction and purpose.
 date:   2024-11-26 15:01:35 +0300
 image:  '/images/UX-flow-chart-min.jpg'
 tags:   [Developer, KnowGo]

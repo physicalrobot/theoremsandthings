@@ -2,7 +2,7 @@
 layout: post
 title:  Telepresence
 description: Digital identity in an age of convenience.
-date:   2024-12-08 15:01:35 +0300
+date:   2025-02-22 15:01:35 +0300
 image:  'https://storage.googleapis.com/vikalpa_artwork/telepresent.png '
 tags:   [Philosophy]
 ---

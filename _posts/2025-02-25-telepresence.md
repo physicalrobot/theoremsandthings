@@ -4,7 +4,7 @@ title:  Telepresence
 description: Digital identity in an age of convenience.
 date:   2024-12-08 15:01:35 +0300
 image:  'https://storage.googleapis.com/vikalpa_artwork/telepresent.png '
-tags:   [Fandom]
+tags:   [Philosophy]
 ---
 In college, I once took a class called The Telepresent Self. It focused on digital literacy and how the world is rapidly evolving toward a state where representing and advocating for oneself online has become just as—if not more—important than doing so in person. The internet presents a psychological filter of the identity we wish to be perceived as, rather than a true reflection of who we are. Yet, despite this distinction, the online self and the real self are becoming increasingly conflated. The internet has a way of intoxicating us, making it easy to believe that our digital persona is our true self. But in reality, it’s just a construct—a curated version of our existence designed to fit within the parameters of virtual spaces.
 

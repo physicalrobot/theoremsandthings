@@ -20,6 +20,10 @@ We live in a world that values being telepresent more than being present. We car
 
 This conflict between digital and real-life personas is brilliantly explored in the show Severance. The dystopian series presents a world where employees voluntarily undergo a procedure to separate their work selves from their personal selves, effectively creating two distinct consciousnesses. It raises an unsettling question: How far are we willing to go to compartmentalize our lives? While Severance is an extreme metaphor, it highlights the growing divide between our online personas and our real-world experiences. We are fragmenting ourselves—not through surgery, but through the daily act of switching between our curated online presence and our physical existence.
 
+<p align="center">
+  <img src="{{site.baseurl}}/images/severanceinnie.avif" alt="severance innie">
+</p>
+
 ## A Path Forward
 
 <span style="color:turquoise">Technology is neither inherently good nor bad; it is simply a tool.</span> How we choose to use it will determine whether it enriches our lives or erodes our sense of self. Instead of blindly embracing every new convenience, we must cultivate awareness about how these tools shape our behaviors and mindsets. We need to strive for a balance—one that allows us to integrate technology into our lives without sacrificing authenticity, resilience, and real-world engagement.
